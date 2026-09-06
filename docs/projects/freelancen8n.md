@@ -43,7 +43,7 @@ This workflow queries all active Freelancer.com projects updated from the last e
 
 - The workflow is locally-hosted (community version) and lacks some features from the paid version.
 - The chat model is on free tier with limited resources (e.g., TPM, RPM), causing the workflow to run into 'over limit' errors.
-- The `jobs[]` query parameter only accepts a single value, which required looping.
+- The `jobs[]` query parameter only accepts a single value, thus requiring looping.
 
 ## Future Improvements
 
