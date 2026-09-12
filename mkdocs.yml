@@ -60,6 +60,8 @@ plugins:
   - blog:
       post_date_format: short
       authors: false
+      categories: true
+      categories_name: Categories
 
 # Footer
 copyright: Copyright &copy; 2026 Ralph Laude
