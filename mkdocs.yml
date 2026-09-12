@@ -1,7 +1,7 @@
-site_name: Ralph Laude | Portfolio
-site_url: https://portfolio.ralphlaude.com
-repo_url: https://github.com/ralphpaololaude/portfolio
-repo_name: ralphpaololaude/portfolio
+site_name: Ralph Laude | Blog
+site_url: https://blog.ralphlaude.com
+repo_url: https://github.com/ralphpaololaude/blog
+repo_name: ralphpaololaude/blog
 
 # Theme
 theme:
@@ -79,5 +79,6 @@ extra:
 
 # Page tree
 nav:
+  - Home: index.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
