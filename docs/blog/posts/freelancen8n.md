@@ -1,7 +1,11 @@
 ---
 template: n8n.html
-hide:
-    - navigation
+date:
+  created: 2026-09-03
+categories:
+  - Projects
+  - n8n
+  - Automation
 ---
 
 # Get Freelance.com Projects
@@ -9,6 +13,7 @@ hide:
 ## Problem
 
 Having access to the latest projects from Freelancer.com is a huge advantage. The email notification is only sent daily, does not include all new projects, and provides incomplete description.
+<!-- more -->
 
 ## Solution
 
@@ -32,12 +37,12 @@ This workflow queries all active Freelancer.com projects updated from the last e
 | GetFreelanceProjects | <div>Fetches all active projects filtered with the following query parameters: <div></div> <div><ul><li>`languages[]` : `en`</li><li>`full_description` : `true` - Include the full description of the project.</li><li>`jobs[]` : `job.id` - Uses the *job.id* from the item in the current loop.</li><li>`from_time` : `$now.minus({ hours: 8 })` - Filter projects updated in the past 8 hours.</li><li>`limit` : `100`</li></ul></div> |
 | GetProjectsObject | Collects all queried projects. |
 | RemoveDuplicateProjects | Removes duplicate projects by *project.id*. |
-| CheckExistingRow | Removes projects already listed in the data table (i.e., updated eight hours ago but created before that). |
 | SetProjectFields | Extracts the following fields: `title`, `currency`, `description`, `budget`, `time_submitted`, `seo_url`, and `id`. |
 | LoopProjects | Loops one project every 15 seconds to optimize AI token use. |
 | AnalyzeProjectDetails | The AI agent that: <ul><li>Summarizes the job description.</li><li>Lists five required skills for the project.</li></ul> |
 | ProjectSummary | Parses the AI agent's output as `summary` and `skills`. |
-| AddProjectData | Adds the project information to an n8n data table. |
+| RemoveEmptyItems | Filters out items with null values for `summary` and/or `skills`. |
+| UpsertProjectData | Adds new project information to an n8n data table and updates existing projects. |
 
 ## Challenges
 
