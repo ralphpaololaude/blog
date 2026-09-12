@@ -1,6 +1,8 @@
 ---
 date:
   created: 2026-07-31
+categories:
+  - Personal
 ---
 
 # Hello World!
