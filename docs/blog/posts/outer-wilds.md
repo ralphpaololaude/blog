@@ -19,7 +19,7 @@ The game was Outer Wilds. Released in 2019, it received overwhelmingly positive 
 
 !!! warning "Spoiler Warning"
 
-    This article contains details about the gameply and story of Outer Wilds.
+    This article contains details about the gameplay and story of Outer Wilds.
 
 ## Hatchling
 
