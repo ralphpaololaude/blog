@@ -18,4 +18,4 @@ This is a sample API documentation for a for a fictional MatchaIO rewards and pa
 
     Not all of Scalar's features may be usable, as I intend for the page to showcase my documentation capabilities for now.
 
-[Check it out](../../../../openapi/apiref.html){ .md-button .md-button--primary }
+[Check it out](../openapi/apiref.html){ .md-button .md-button--primary }
