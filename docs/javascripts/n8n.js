@@ -1,5 +1,5 @@
 function fFetchWorkflowData() {
-  var dataFile='../../../../n8n/' + $('#demo').attr('data-file') +'.json';
+  var dataFile='../n8n/' + $('#demo').attr('data-file') +'.json';
 
   $.getJSON(dataFile, function(data) {
     fBuildN8NComponent(JSON.stringify(data));
