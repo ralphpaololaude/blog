@@ -64,6 +64,7 @@ plugins:
       authors: false
       categories: true
       categories_name: Categories
+      post_url_format: "{slug}"
 
 # Footer
 copyright: Copyright &copy; 2026 Ralph Laude
