@@ -65,6 +65,7 @@ plugins:
       categories: true
       categories_name: Categories
       post_url_format: "{slug}"
+  - glightbox
 
 # Footer
 copyright: Copyright &copy; 2026 Ralph Laude
