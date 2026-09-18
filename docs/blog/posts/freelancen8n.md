@@ -44,6 +44,36 @@ This workflow queries all active Freelancer.com projects updated from the last e
 | RemoveEmptyItems | Filters out items with null values for `summary` and/or `skills`. |
 | UpsertProjectData | Adds new project information to an n8n data table and updates existing projects. |
 
+## Use cases
+
+### Automated Email Delivery
+
+<div class="grid" markdown>
+
+<figure markdown="span" class="card">
+![Image title](../../assets/images/freelancecomemail.png){ width="300" }
+</figure> 
+
+* A scheduled n8n automation workflow retrieves new freelance opportunities from the data table, generates responsive HTML/CSS email content, and delivers formatted project alerts through Gmail.
+* JavaScript expressions are used to dynamically populate project titles, budgets, skill sets, summaries, dates, and direct project links.
+* After delivery, the workflow updates each record to prevent duplicate notifications, reducing manual monitoring and ensuring new opportunities are surfaced consistently.
+
+</div>
+
+### Update Slack App Home with Latest Open Freelance.com Projects
+
+<div class="grid" markdown>
+
+<figure markdown="span" class="card">
+![Image title](../../assets/images/slackapphome.png){ width="300" }
+</figure> 
+
+* Built an n8n automation workflow that delivers the latest projects to a custom Slack app home dashboard.
+* Retrieves undelivered projects from an n8n data table, limits the results, and processes project information for display.
+* Dynamically generates Slack Block Kit components with project summaries, skills, budgets, posting dates, and direct project links.
+* Uses the Slack API, HTTP requests, JavaScript expressions, and a reusable n8n sub-workflow to publish and enhance the project dashboard.
+</div>
+
 ## Challenges
 
 - The workflow is locally-hosted (community version) and lacks some features from the paid version.
