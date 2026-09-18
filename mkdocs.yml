@@ -7,10 +7,8 @@ repo_name: ralphpaololaude/blog
 theme:
   name: material
   custom_dir: material/overrides
-  icon:
-    logo: material/code-braces
-    repo: fontawesome/brands/github
-  favicon: favicon.ico
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
   font:
     text: Noto Sans
   palette:
