@@ -15,11 +15,15 @@ While waiting for my coffee to finish brewing, I came across a video of a stream
 
 My curiosity got the better of me and I searched for more videos about the game. I found snippets of gameplay (*Why are they trying to dive into the sun?*), but mostly of people with dazed expressions after completing the game. In my mind, *"How could a game leave them like that?"*
 
-The game was Outer Wilds. Released in 2019, it received overwhelmingly positive reviews from critics and players alike. I quickly got the Archaeologist version (includes the *Echoes of the Eye* DLC, to be reviewed on another post) for my Nintendo Switch.
+The game was Outer Wilds. Released in 2019, it received overwhelmingly positive reviews from critics and players alike. I quickly got the Archaeologist version for my Nintendo Switch.
 
 !!! warning "Spoiler Warning"
 
     This article contains details about the gameplay and story of Outer Wilds.
+
+<figure markdown="span" class="card">
+![Campfire](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJpbnVlZmkwb3h3bno5aWJrYXN4bzh6NHhlODZ1aWYwd3R5dmpqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BxAgRV0lC3QnufNviv/giphy.gif){ width="480" height="269" }
+</figure> 
 
 ## Hatchling
 
@@ -54,6 +58,8 @@ It was the first time I gazed upward and saw that the sun no longer looked as fr
 :material-format-quote-open:
 *`We only get so much time, don’t we? Ah, there was still more I wanted to do...How unlucky to have been born at the end of the universe`*
 :material-format-quote-close:
+
+It wasn't just the universe that felt like it was ending.
 
 In 2025, I lived through a series of quiet, painful losses: laying maternal figures in my life to rest, and watching the final chapter of a long-term relationship draw to a close.
 
