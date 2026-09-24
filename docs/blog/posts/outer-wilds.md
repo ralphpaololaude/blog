@@ -1,6 +1,7 @@
 ---
 date:
   created: 2026-09-16
+  updated: 2026-09-22
 categories:
   - Gaming
   - Personal
